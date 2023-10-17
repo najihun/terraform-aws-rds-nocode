@@ -14,3 +14,7 @@ variable "db_password" {
 variable "multi_az" {
   description = "Multi AZ Select"
 }
+
+variable "apply_immediatly" {
+  description = "Specifies whether any database modifications are applied immediately"
+}
