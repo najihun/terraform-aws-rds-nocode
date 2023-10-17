@@ -15,6 +15,6 @@ variable "multi_az" {
   description = "Multi AZ Select"
 }
 
-variable "apply_immediatly" {
+variable "apply_immediately" {
   description = "Specifies whether any database modifications are applied immediately"
 }
